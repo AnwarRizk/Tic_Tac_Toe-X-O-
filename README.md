@@ -6,11 +6,13 @@ This is a simple implementation of the classic Tic Tac Toe game in C++. The game
 
 The game board is a 3x3 grid, and each cell corresponds to a number from 1 to 9, starting from the top left cell and going to the right and down. For example:
 
-## 1 | 2 | 3
+```
+1 | 2 | 3
 
-## 4 | 5 | 6
+4 | 5 | 6
 
-## 7 | 8 | 9
+7 | 8 | 9
+```
 
 Players take turns to place their mark (X or O) in an empty cell. The first player to get three of their marks in a row (up, down, across, or diagonally) is the winner.
 
